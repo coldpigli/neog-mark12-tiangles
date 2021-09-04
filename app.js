@@ -27,7 +27,11 @@ function IsTriangle()
 }
 
 function SumOfAngles(angle1, angle2, angle3)
-{
+{   
+    if(angle1===0||angle2===0||angle3===0){
+        outputDiv.innerText = "Any angle cannot be zero";
+        return;
+    }
     var angleSum = angle1 + angle2 + angle3;
     return angleSum;
 }
