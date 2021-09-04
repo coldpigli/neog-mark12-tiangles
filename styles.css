@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root{
+    --clr-primary-color: #1F2937;
+    --clr-accent-color: #10B981;
+    --clr-primary-color-light: #abb0b6;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    padding: 0%;
+    margin: auto;
+    
+}
+
+/*Navigation*/
+.nav-container{
+    background-color: var(--clr-primary-color) ;
+    margin: auto;
+    
+    padding: 1.2rem;
+    
+}
+
+.nav-container h2 {
+    margin: 0%;
+    color: var(--clr-accent-color);
+    font-weight: bold;
+    padding-top: 1.5rem;
+    padding-left: 1rem;
+}
+.nav-container a{
+    text-decoration: none;
+}
+
+.nav-list{
+    list-style-type: none;
+    margin: auto;
+    text-align: right;
+    
+}
+
+.nav-items{
+    display: inline;
+    padding: 0.5rem 2rem;
+
+}
+
+
+
+.nav-links{
+    text-decoration: none;
+    color: var(--clr-accent-color);
+    
+}
+
+.active-link{
+    color: white;
+}
+
+/*footer-section*/
+
+.footer-section{
+    background-color: var(--clr-primary-color);
+    text-align: center;
+    padding: 1.5rem;
+}
+.footer-section h3{
+    color: white;
+    padding-bottom: 1.5rem;
+}
+.footer-list{
+    list-style-type: none;
+    padding: 0;
+    
+}
+.footer-links{
+    display: inline;
+    padding: 1.5rem;
+}
+.footer-links a {
+    text-decoration: none;
+    color: var(--clr-accent-color);
+}
+
+/*for-index-html*/
+.container-index{
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+.container-index label{
+    display: block;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.container-index input{
+display: block;
+  padding: 1rem;
+  width: 25%;
+  font-size: 14px;
+  outline: #fff;
+  padding: 0.6rem 1rem;
+  margin: auto;
+  border: 2px solid var(--clr-accent-color);
+  border-radius: 0.5rem;
+}
+.container-index button{
+    background: var(--clr-accent-color);
+    border: none;
+    color: #fff;
+    padding: 0.7rem 1rem;
+    border-radius: 0.5rem;
+    font-size: large;
+    cursor: pointer;
+    outline: #fff;
+    margin: auto;
+    display: block;
+    margin-top: 2rem;
+    width: 25%;
+}
+
+#div-output{
+    font-size: 1.5rem;
+    padding-top: 1.5rem;
+}
+#output{
+    font-size: 1.5rem;
+    padding-top: 1.5rem;
+}
+
+/*Triangle quiz*/
+.h1-form{
+    text-align: center;
+    padding: 3rem;
+}
+.form-quiz .div-container{
+    text-align: center;
+    background-color: var(--clr-primary-color);
+    border-radius: 3rem;
+    max-width: 85%;
+    margin: auto;
+    margin-bottom: 3rem;
+    padding: 1.5rem;
+    color: white;
+    
+}
+.div-container p {
+    color: var(--clr-accent-color);
+
+}
+
+#btn-submit-form{
+    background: var(--clr-accent-color);
+    border: none;
+    color: #fff;
+    padding: 0.7rem 1rem;
+    border-radius: 0.5rem;
+    font-size: large;
+    cursor: pointer;
+    outline: #fff;
+    margin: auto;
+    display: block;
+    margin-top: 2rem;
+    width: 25%;
+    margin-bottom: 2rem;
+}
+
+#div-output-quiz{
+    font-size: 1.5rem;
+    padding-top: 1.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+
+
+
+
